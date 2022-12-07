@@ -1,0 +1,78 @@
+.TakeNote2 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  /* margin: 0px; */
+  padding: 0px;
+  /* margin-top: 50px; */
+  width: 40%;
+  border: 3px solid rgb(238, 234, 234);
+  border-radius: 8px;
+  box-shadow: 1px 1px lightblue;
+  /* margin-left: 4px; */
+  margin: 50px auto 0px auto;
+}
+.TakeNote2Input {
+  margin: 0px;
+  height: 30px;
+  width: 100%;
+  border: 0px;
+  padding: 5px 15px;
+  font-size: 18px;
+  margin-left: 3px;
+  box-sizing: border-box;
+  outline: none;
+}
+.Modal {
+  position: fixed;
+  z-index: 20;
+  opacity: 1;
+  top: 40%;
+  left: 30%;
+  background-color: transparent;
+}
+
+.shadow-effect {
+  width: 100%;
+  height: 100%;
+  background-color: #202124;
+  opacity: 0.5;
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  left: 0;
+}
+
+.modal-action-container {
+  background-color: white;
+}
+
+.Note2Symbolmaincontainer-modal {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.TakeNote2Input-modal {
+  margin-left: 0px;
+}
+
+.Note2SymbolDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  color: grey;
+}
+.Note2Symbols {
+  margin-left: 26px;
+}
+
+.close-btn {
+  padding: 3px 15px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(238, 234, 234);
+}

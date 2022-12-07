@@ -1,0 +1,29 @@
+.drawer-main-container-extend{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 70%;
+    margin-left: 0px;
+    min-height: auto;
+    overflow: hidden;
+    padding-top: 8px;
+    position: fixed;
+    top: 50px
+}
+
+.drawer-icons-extend{
+    color: grey;
+    margin:5px 0px;
+    margin-left: 15px;    
+}
+.Rowflex{
+    display: flex;
+    align-items: center;
+}
+.DrawerSpan{
+    margin: 0;
+    margin-left: 5%;
+    font-size: 18px;
+    color: grey;
+    white-space:nowrap;
+}

@@ -1,0 +1,75 @@
+.signin-container{
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    width: 450px;   
+    margin-top: 60px;
+}
+.signinFirst{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; 
+}
+.pSignin{
+   height:20px;
+   /* margin-top: 5px; */
+   margin-top: auto;
+   font-weight: 400
+}
+.classInput {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 18px;
+    height: 45px;
+    border-radius: 5px;
+    border:2px solid gainsboro;
+    padding-left: 3px;
+}
+.inputclass{
+display: block;
+margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-weight: 600;
+    font-size: 1rem
+}
+.forgot{
+    /* display: block;
+    width: 80%; */
+    display: inline-flex;
+    width: 80%;
+    margin: 15px 0px
+    /* margin: 5px 0px; */
+    /* margin: auto;
+    margin-top: 5px; */
+}
+.Create-Account{
+    
+   display: flex;
+   width: 80%;
+   margin: auto;
+   justify-content: space-between;
+   margin-top: 60px;
+   margin-bottom: 18px;
+}
+
+.logo{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 18px;
+    height: 30px;
+    width: 110px;
+}
+.Buttonclass{
+height:35px;
+background-color:#1a73e8;
+border-radius: 5px;
+border:0px;
+width:20%;
+}
